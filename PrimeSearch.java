@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class ExhausiveSearch {
+public class PrimeSearch {
     public static void main(String[] args) throws Exception {
         String numbers = "17";
         int result = solution(numbers);

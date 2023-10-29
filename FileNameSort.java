@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FileSort {
+public class FileNameSort {
     public static void main(String[] args) throws Exception {
         
         // String[] files = {"img12.png", "img0110.png", "img02.png", "img1.png", "IMG01.GIF", "img2"};
