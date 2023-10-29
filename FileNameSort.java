@@ -6,10 +6,9 @@ import java.util.Map;
 
 public class FileNameSort {
     public static void main(String[] args) throws Exception {
-        
-        // String[] files = {"img12.png", "img0110.png", "img02.png", "img1.png", "IMG01.GIF", "img2"};
         String[] files = {"F-5 Freedom Fighter", "muzi1asd5.png", "MUZI01.zip", "B-50 Superfortress", "A-10 Thunderbolt II", "a-0010 Thunderbolt II", "F-14 Tomcat" , "o1", "a0"};
         String[] result = solution(files);
+
         System.out.println(Arrays.toString(result));
     }
 
@@ -21,12 +20,7 @@ public class FileNameSort {
                 public int compare(String currentFile, String nextFile) {
                     String [] sCurrentFile = splitFileName(currentFile);
                     String [] sNextFile = splitFileName(nextFile);
-
-                    // System.out.println(Arrays.toString(pNextFile));
-
                     int headResult = sCurrentFile[0].compareTo(sNextFile[0]);
-
-                    // System.out.println(headResult);
 
                     if (headResult == 0) {
                         int sCurrentFileNum = Integer.parseInt(sCurrentFile[1]);

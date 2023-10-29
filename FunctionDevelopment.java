@@ -9,6 +9,7 @@ public class FunctionDevelopment {
         int[] progresses = {95, 90, 99, 99, 80, 99};
         int[] speeds = {1, 1, 1, 1, 1, 1};
         int[] result = solution(progresses, speeds);
+
         System.out.println(Arrays.toString(result));
     }
 
@@ -18,6 +19,7 @@ public class FunctionDevelopment {
     
         for (int i = 0; i < progresses.length; i++) {
             int completedDay = complete(progresses[i], speeds[i]);
+
             queue.offer(completedDay);
         }
     
@@ -31,6 +33,7 @@ public class FunctionDevelopment {
                 count++;
                 continue;
             }
+            
             resultList.add(count);
             count = 1;
             prevDay = currentDay;

@@ -34,9 +34,11 @@ public class GameShortestDistance {
         int maxLength = maps[0].length;
 
         // Queue<int[]> queue = new LinkedList<>();
+
         // queue.add(new int[]{0, 0, 1});
 
         Queue<Node> queue = new LinkedList<>();
+
         queue.add(new Node(0, 0, 1));
 
         while (!queue.isEmpty()) {
