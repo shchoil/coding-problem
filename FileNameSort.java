@@ -1,8 +1,5 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
 
 public class FileNameSort {
     public static void main(String[] args) throws Exception {
@@ -18,8 +15,8 @@ public class FileNameSort {
                 Arrays.sort(files, new Comparator<String>() {
                 @Override
                 public int compare(String currentFile, String nextFile) {
-                    String [] sCurrentFile = splitFileName(currentFile);
-                    String [] sNextFile = splitFileName(nextFile);
+                    String[] sCurrentFile = splitFileName(currentFile);
+                    String[] sNextFile = splitFileName(nextFile);
                     int headResult = sCurrentFile[0].compareTo(sNextFile[0]);
 
                     if (headResult == 0) {
@@ -52,7 +49,7 @@ public class FileNameSort {
                             fileNumberName += character;
                         }
                     }
-                    String [] sortedFileName = {fileHeadName.toLowerCase(), fileNumberName, fileTailName};
+                    String[] sortedFileName = {fileHeadName.toLowerCase(), fileNumberName, fileTailName};
 
                     return sortedFileName;
                 }
