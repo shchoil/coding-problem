@@ -4,7 +4,7 @@ public class Ponketmon {
     public static void main(String[] args) throws Exception {
         int[] numbers = {3, 3, 3, 2, 2, 4};
         int result = solution(numbers);
-        // System.out.println(result);
+        System.out.println(result);
     }
 
     public static int solution(int[] nums) {
