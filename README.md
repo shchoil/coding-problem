@@ -9,3 +9,4 @@
 - [소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/42839) - 풀이 [링크](https://github.com/shchoil/coding_problem/blob/main/PrimeSearch.java)
 - [큰 수 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/42883) - 풀이 [링크](https://github.com/shchoil/coding_problem/blob/main/MakingLargeNumber.java)
 - [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845) - 풀이 [링크](https://github.com/shchoil/coding_problem/blob/main/Ponketmon.java)
+- [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) - 풀이 [링크](https://github.com/shchoil/coding_problem/blob/main/AFailedRunner.java)
